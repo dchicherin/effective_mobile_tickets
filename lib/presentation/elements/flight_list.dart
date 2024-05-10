@@ -62,8 +62,8 @@ class FlightOfferList extends ConsumerWidget {
                                     Text(
                                       '${NumberFormat.decimalPattern('ru').format(ticketOffers[index].price.value)} ₽ ›',
                                       style: const TextStyle(
-                                        color: kDarkBlue,
-                                      ),
+                                          color: kDarkBlue,
+                                          fontStyle: FontStyle.italic),
                                     ),
                                   ],
                                 ),

@@ -34,6 +34,7 @@ class SearchStartView extends StatelessWidget {
           top: BorderSide(width: 1.0, color: kDarkTableColor),
         )),
         child: TabBar(
+          dividerColor: Colors.transparent,
           controller: _tabController,
           tabs: const [
             Tab(
@@ -44,9 +45,9 @@ class SearchStartView extends StatelessWidget {
             ),
             Tab(
                 icon: Icon(
-                  IconsEM.bed,
+                  CupertinoIcons.bed_double_fill,
                 ),
-                text: '  Отели'),
+                text: 'Отели'),
             Tab(
               icon: Icon(IconsEM.locationpin),
               text: "Короче",
